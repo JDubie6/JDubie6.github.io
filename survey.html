@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+ <link rel="stylesheet" href="survey.css">
+ <title>SURVEY PAGE</title>
+    </head>
+    <body>
+        <div class="container">
+        <div style="color: white; text-align: center;">
+            <h1>DUBIE'S SURVEY FORM</h1>
+             <p style="font-size: larger;"><em>Thank you for taking your time to help me improve this platform</em></p>
+        </div>
+      <form class="form">
+          <div class="groupform">
+              <label id="label" for="Name">Name</label>
+              <input id="name" class="control" type="text" name="name"
+              placeholder="Enter your name">
+          </div>
+          <div class="groupform">
+              <label id="label" for="age">Age 
+               <span class="clue">(optional)</span>
+              </label>
+              <input id="age" class="control"type="number" name="age" min="10" max="99" placeholder="How old are you?">
+          </div>
+          <div class="groupform">
+              <label id="label" for="email">Email</label>
+              <input id="email" class="control" type="email" name="email" 
+              placeholder="Enter your Email">
+          </div>
+          <div class="groupform">
+              <p>Which option best describes your current role?</p>
+              <select id="dropdown" class="control" name="role" required="">
+                  <option disabled="" selected="" value="">Select current role </option>
+                  <option value="student">Student</option>
+                  <option value="job">Full Time Job</option>
+                  <option value="learner">Full Time Learner</option>
+                  <option value="noAnswer">Prefer Not To Say</option>
+                  <option value="other">Other</option>
+              </select>
+          </div>
+          <div class="groupform">
+              <p style="margin-top:10px">Would you recommend me to someone for a job?</p>
+              <label>
+                  <input class="radio" name="recommend" value="Definitely" type="radio" >Definitely
+              </label>
+              <label>
+                  <input id="radio" name="recommend" value="maybe" type="radio">Maybe
+              </label>
+              <label>
+                  <input id="radio" name="recommend" value="No" type="radio">No
+              </label>
+          </div>
+          <div class="groupform">
+              <p style="margin-top:0px">What areas would you like me to improve on?
+                  <span class="clue">(check all that apply)</span>
+              </p>
+              <label>
+                <input id="checkbox"  name="prefer" value="front-end projects" type="checkbox">Front-end projects
+              </label>
+              <label>
+                <input id="checkbox"  name="prefer" value="back-end projects" type="checkbox">Back-end projects
+              </label>
+              <label>
+                <input id="checkbox"  name="prefer" value="data visualisation" type="checkbox">Data Visualisation
+              </label>
+          </div>
+          <div class="groupform">
+              <p>Any comments or suggestions?</p>
+              <textarea id="comments" class="input" name="comment"
+              placeholder="Enter your comment here..."></textarea>
+          </div>
+          <div class="groupform">
+              <button id="submit" class="button" type="submit">submit</button>
+          </div>
+      </form>
+        </div>
+        
