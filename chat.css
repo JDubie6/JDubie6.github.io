@@ -1,0 +1,123 @@
+
+
+body {
+    font-family: 'rubik', sans-serif;
+    font-weight: 400, 500, 700;
+    font-size: 16px;
+    background-color: rgb(236, 243, 243);
+    background-position-x: left 40%;
+    width: 40%;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: hsl(270, 20%, 96%);
+    width:375px;
+    margin-left: 60%;
+    margin-top:20% ;
+    border: solid 10px white;
+    border-radius: 40px;
+}
+.box {
+    background-image: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px 40px 10px 10px;
+    height: 100px;
+}
+.box2 {
+    background:rgb(233, 204, 233) ;
+    color:hsl(276, 55%, 52%);
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 5px;
+    padding: 10px;
+    margin-right:120px ;
+    margin-top: 10px;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+}
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    background:white  ;
+    color: hsl(271, 15%, 43%);
+    border-radius: 15px 15px 5px 15px;
+    margin-right:10px;
+    padding: 10px;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+}
+.box5{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
+    color:white;
+    margin-left: 10px;
+    border-radius: 15px 15px 15px 5px;
+    padding: 10px;
+    margin-right:120px ;
+    margin-top: 10px;
+}
+span {
+    font-family: cursive;
+
+}
+.form{
+    margin-left: 10px;
+      border-radius: 40px;
+    background: white;
+    display: block;
+        width: 80%;
+        height: 30px;
+        padding: 5px;
+        color: #495057;
+        background-clip: padding-box;
+        border:1px solid white;
+        border-radius: 0.25rem;
+        margin-bottom: 10px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+.bod{
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    margin-left: 40%;
+    margin-top: 20%;
+
+}
+.top{
+    background: #fff;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows: 1fr ;
+    height: 130px;
+    position: absolute;
+    left: 10px;
+    top:0;
+    z-index: 2;
+    margin-left: 24%;
+    width: 20%;
+    border-radius:0 0 20px 20px;
+    overflow: hidden;
+}
+.topbox {
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+
+.pup1{
+    background:hsl(264, 100%, 61%) ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 0 0 800px 50px;
+    width: 80%;
+    
+    
+}
