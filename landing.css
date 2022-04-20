@@ -260,6 +260,7 @@ h1{
 .back{
     margin-top:125px;
     margin-right:0;
+    width:100%
 }
 .back1{
     margin-left:10px
@@ -285,6 +286,7 @@ h1{
 }
 .dark{
    margin-right:0;
+   width: 100%;
 
    
 } 
@@ -330,6 +332,7 @@ flex-direction: column;
 background:hsl(243, 87%, 12%) ;
 color: white;
 margin: 0 20px 20px 20px;
+width:100%;
 }
 
 .darker1 {
