@@ -7,21 +7,9 @@
     grid-template-rows: 1fr;
     grid-gap: 200px;
 }
-#nav {
-    float: inline-end;
+
     
     
-}
-#nav ul{
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-top: 70px;
-    align-items: flex-end;
-    font-family:'raleway', sans-serif;
-}
 a{
     color: black;
     text-decoration: none;
@@ -232,7 +220,7 @@ a{
 {
 h1{
     margin-bottom:0;
-    text-align:center;
+    margin-left: 40px;
 }
 .ground1 h2{
     font-size: 20px;
