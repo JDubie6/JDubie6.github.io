@@ -61,7 +61,7 @@ nav ul li :hover {
     display: none;
     padding-left: 15px;
 }
-.fa-solid {
+.fa-bars {
     color: #fff;
     font-size: 20px;
     padding: 14px 13px 14px 13px;
@@ -239,13 +239,13 @@ label.logo{
     display: block;
     line-height: 90px;
     padding-right: 0;
-    margin-left: 80px;
+    margin-left: 20%;
     float: right;
     width: 30px;
 
  }
 
- .fa-solid{
+ .fa-bars{
     display: inline;
     
 }    

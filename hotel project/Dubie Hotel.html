@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dubie Hotel</title>
+    <link rel="stylesheet" href="Dubie Hotel.css">
+    <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open Sans'>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&amp;family=Nunito:wght@200&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f792a7e078.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+            <label class="logo" >Dubie Hotel</label>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Amenities</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="http://">
+                <button class="reservation">RESERVATIONS</button>
+            </a></div>
+        <div class="description">
+            <h1>The Perfect Hotel <br> In Asaba</h1>
+            <p>If you are looking for a perfect holiday experience with
+                memories to cherish, you are at the right place. Let us plan a reasonable stay
+                for you.
+            </p>
+        </div>
+    </header>
+    <div class="booking">
+        <h5>BOOK YOUR STAY NOW</h5>
+        <div class="form" id="form">
+        <div>
+            <label>Check-in date</label>
+            <input  class="input" id="input" type="text" onfocus="(this.type='date')" placeholder="Select date" name="uname" required autofocus autocomplete="off">
+            <i class="fa-solid fa-calendar-days"></i>
+        </div>
+            <label>Check-out date<label>
+            <input class="input" id="input" type="text" onfocus="(this.type='date')" placeholder="Select date" autofocus autocomplete="off">
+            <i class="fa-solid fa-calendar-days"></i>
+            <p>Guest</p>
+            <input type="text" class="input" id="input" placeholder="Select date" autofocus autocomplete="off">
+            <div class="rooms">
+                <p>Rooms</p>
+                <input id="age" class="control"type="number" name="age" min="1" max="5" placeholder="1">
+            </div>
+            <button type="submit" class="btn">SEARCH</button>
+        </div>
+    </div>
+</body>
+</html>

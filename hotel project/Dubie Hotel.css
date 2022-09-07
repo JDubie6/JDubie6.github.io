@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+}
+body, html{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 30;
+    
+}
+nav{
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/gallery-5.jpg);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    color: #fff;
+    
+}
+.nav{
+    display: flex;
+}
+label.logo {
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family:'Hachi Maru Pop', sans-serif;
+}
+.reservation{
+    color: #fff;
+    background: none;
+    border: 1px solid;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+nav ul {
+    padding-top: 10px;
+    display: flex;
+    padding-left: 50px;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+    
+}
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav ul li :hover {
+    background-color: #fff;
+    opacity: .5;
+}
+.checkbtn{
+    float: right;
+    line-height: 80px;
+    display: none;
+    padding-left: 15px;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 20px;
+    padding: 14px 13px 14px 13px;
+    background-color: rgba(27, 25, 25);
+    border-radius: 3px;
+    display: none;
+    }  
+#check{
+    display: none;
+}  
+.description{
+    text-align: center;
+    margin-top: 130px;
+}
+.description p {
+    width: 80%;
+    margin-left: 10%;
+    line-height: 1.5;
+}
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking h5 {
+    color: #fff;
+    background-color: black;
+    padding: 10px 15px;
+    position: absolute;
+    top: 410px;
+    left: 100px;
+    width: 180px;
+}
+.booking h5:hover{
+    color: black;
+    background-color: #fff;
+    transition: .5s;
+}
+.form{
+    width: 90%;
+    background-color: #fff;
+    position: absolute;
+    top: 500px;
+    padding-left: 30px;
+    
+
+}
+.form label {
+    font-weight: 700;
+    line-height: 3;
+}
+.input {
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: solid 1px gray;
+ } 
+ input::placeholder {
+    color: black;
+    font-family: inherit;
+    padding-left: 50px;
+    font-weight: 700;
+ }
+
+form .rooms{
+    width: 90%;
+    border: solid 1px grey;
+    margin-top: 20px;
+}
+.rooms p{
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.rooms input{
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top: 10px;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+    font-size: 15px;
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+    margin-left: 40px;
+}
+.caret.rotate {
+    transform: rotate(180deg);
+}
+.fa-calendar-days {
+    position: absolute;
+    margin-top: -35px;
+    left: 40px;
+    font-size: 20px;
+}
+/**phone view*/
+@media screen and (max-width: 858px){
+    nav{
+       height: 100vh;
+       background-position: center;
+    } 
+   label.logo{
+       margin-left: 20px;
+       margin-top: 20px;
+       
+   }
+    .checkbtn{
+       display: block;
+       line-height: 90px;
+       padding-right: 0;
+       margin-left: 80px;
+       float: right;
+       
+   
+    }
+   
+    .fa-bars{
+       display: inline;
+       
+       
+   }    
+   .nav ul{
+       position: absolute;
+       width: 100%;
+       height: 100vh;
+       top: 80px;
+       left: -100%;
+       text-align: left;
+       background-color: rgb(243, 240, 240);
+       height: fit-content;
+       transition: all .5s;
+    }  
+   nav ul{
+       display: block;
+       position: absolute;
+       padding-left: 0px;
+   }
+    nav ul li {
+       display: block;
+       line-height: 40px;
+    } 
+   
+    nav ul li a {
+       color: black;
+       padding-left: 10px;
+       font-size: 15px;
+       text-transform: capitalize;
+    }
+    li:hover{
+       background-color: #fff;
+       width: 100%;
+    }
+    #check:checked ~ ul{
+       left: 0;
+    }
+
+.reservation{
+   display: none;
+}
+}
