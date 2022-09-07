@@ -8,7 +8,7 @@
     font-weight: 1000;
 }
 nav{
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/about-banner.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.3), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/about-banner.jpg);
     background-size: cover;
     position: relative;
     height: 600px;
@@ -410,9 +410,9 @@ img{
     padding-left: 0;
     margin-top: 30px;
 }
-.explore h2 p {
-    font-size: 15px;
+.explore p{
     margin-top: 30px;
+    font-size: 15px;
 }
 .fa-brands{
     padding-left: 50px;
