@@ -1,0 +1,375 @@
+
+body, html{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 30;
+    
+}
+.bar-icon{
+    display: none;
+}
+.nav{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/about-banner.jpg);
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    margin-bottom: 80px;
+
+}
+.navbar {
+    display: flex;
+    filter: brightness(200%);
+}
+.navbar h2 {
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family:'Hachi Maru Pop', sans-serif;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.navbar ul li {
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 1000;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.reservation{
+    color: #fff;
+    background: none;
+    border: 1px solid;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+    float: right;
+    position: absolute;
+    margin-left: 50%;
+    top: 5%;
+}
+.nav h1{
+    margin-left: 60px;
+    font-size: 70px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    filter: brightness(150%);
+    font-family: 'Nunito', sans-serif;
+}
+.nav span {
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    line-height: 1.6;
+}
+section {
+    color: rgb(27, 25, 25);
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+section h1 {
+    font-size: 50px;
+}
+section h2 {
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+}
+section h1 span{
+    font-size: 19px;
+    color:rgba(27, 25, 25, 0.7)
+}
+section h2 span{
+    font-size: 19px;
+    color:rgba(27, 25, 25, 0.7);
+    margin-top:10px;
+}
+.info-btn {
+    background-color:  rgba(8, 7, 7, 0.83);
+    color: #fff;
+    margin-left:450px ;
+    border-style: none;
+    width: 140px;
+    height: 50px;
+    font-family: monospace;
+}
+img{
+    width: 600px;
+}
+.room-types{
+    display: flex;
+}
+.rooms{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.booking{
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(20,0,0,0.7)), url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/background-img-1.jpg);
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+.booking h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.booking p {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 0;
+}
+.booking h3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.booking h3 span {
+    font-size: 40px;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    color:rgba(27, 25, 25, 0.7) ;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+}
+.explore h2 {
+    color: rgb(27, 25, 25, 0.9);
+}
+.explore ul {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.explore ul li a {
+    text-decoration: none;
+    color:rgba(27, 25, 25, 0.7) ;
+    font-weight: 600;
+}
+.explore p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.fa-brands{
+    padding-left: 50px;
+}
+.fa-phone{
+    background-color:  transparent;
+}
+.copyright{
+    font-size: 20px;
+    color:rgba(27, 25, 25, 0.7) ;
+    font-weight: 600;
+    text-align: center;
+}
+/*MEDIA QUERIES*/
+
+/*tablets*/
+@media screen and(max-width:768px){
+    
+}
+/*mobiles*/
+@media screen and (max-width: 480px){
+.nav{
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    margin-bottom: 80px;
+    width:100% ;
+    }
+.navbar ul {
+    display: none;
+    } 
+.navbar h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family:'Hachi Maru Pop', sans-serif;
+    word-break: keep-all;
+    }
+.reservation{
+    display: none;
+}
+.bar ul {
+    display: block;
+}
+.bar-icon{
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin-left: 70%;
+}
+.fa-bars {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: black;
+    width: 35px;
+    margin-top: 0;
+    }   
+.bar-icon ul li {
+    list-style: none;
+    position: relative;
+    
+} 
+.bar-icon ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: large;
+}
+.bar-icon ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    height: 100px;
+}
+.bar-icon ul li ul li  {
+    text-align: left;
+}
+.bar-icon ul li:hover ul {
+    display: block;
+}
+.bar-icon ul li ul li a:hover{
+    background-color: white;
+    width: 100%;
+
+}
+.nav h1{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+}
+.nav span {
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    line-height: 1.6;
+}
+section {
+    margin-left: 20px;
+    
+}
+section h1 {
+    font-size: 30px;
+    
+}
+section h2 {
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info-btn {
+    margin-left: 10px;
+}
+.room-types{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rooms{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+img{
+    width: 100%;
+}
+.booking{
+    width: 100%;
+    margin-right: 20px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.booking h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    width: 70%;
+    padding-left: 50px;
+}
+.booking p {
+    text-align: center;
+    font-size: 11px;
+    padding-top: 0;
+    width: 70%;
+    padding-left: 50px;
+    line-height: 2;
+}
+.booking h3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-top: 15px;
+}
+.booking h3 span {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color:rgba(27, 25, 25, 0.7) ;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.explore h2 {
+    font-size: 20;
+}
+.explore ul {
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0;
+}
+.explore p {
+    font-size: 15px;
+}
+.fa-brands{
+    padding-left: 50px;
+}
+.copyright{
+    font-size: 15px;
+}
+}
