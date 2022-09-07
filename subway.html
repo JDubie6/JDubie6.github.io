@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="subway.css">
+    </head>
+    <body>
+        <span class="mouse">
+        <span class="mouse-wheel"></span>
+        </span>
+        <h1>PEOPLE ENTERED :</h1>
+        <h2 id="count">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="decrement-btn" onclick="decrement()">DECREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries:</p>
+        <h1>A SIMPLE CALCULATOR</h1>
+         <span id="num1-el"></span>
+         <span id="num2-el"></span>
+         <br>
+         <button onclick="add()">Add</button>
+         <button onclick="subtract()">Subtract</button>
+         <button onclick="divide()">Divide</button>
+         <button onclick="multiply()">Multiply</button>
+         <br>
+         <span id="sum-el">Sum: </span>
+         <!--JackBlack game-->
+         <section>
+             <div class="blackjack-card">
+              <h1 style="color:goldenrod;font-size: 50px;">Blackjack</h1>
+              <p id="message-el">Want to play a round ?</p>
+              <p id="cards-el">Cards :</p>
+              <p id="summ-el">Sum:</p>
+              <button id="start-el" onclick="startGame()">START GAME</button>
+              <button id="newcard-el" onclick="newCard()">NEW CARD</button>
+              <p id="player-el"></p>
+             </div>
+         </section>
+         <!--chrome extensions-->
+         <section>
+             <div class="extension">
+                 <h1>CHROME EXTENSION</h1>
+             <input type="text" id="input-el">
+             <div class="buttons">
+             <button id="input-btn">SAVE INPUT</button>
+             <button id="delete-btn">DELETE ALL</button></div>
+             <ul id="ul-el"></ul>
+             </div>
+         </section>
+        <script src="subway.js"></script> 
+    </body>
+</html>

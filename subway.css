@@ -1,0 +1,167 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    text-align: center;
+}
+button {
+    background-color: aqua;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 45%;
+    padding: 5px 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#count {
+    font-family: monospace;
+    background-color: blue;
+    width: 80px;
+    text-align: center;
+    margin-left: 45%;
+    padding: 30px;
+    font-size: 50px;
+}
+#save-btn {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 45%;
+    padding: 5px 50px;
+    width: 150px;
+}
+.mouse {
+    width: 25px;
+    height: 50px;
+    border: 2px solid rgb(22, 177, 224);
+    border-radius: 20px;
+    display: flex;
+}
+.mouse-wheel{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(238, 14, 14);
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1s linear infinite;
+}
+@keyframes move-wheel {
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+}
+#num1-el {
+    margin-left: 49%;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+#num2-el {
+    text-decoration: underline;
+    font-size: 40px;
+    margin-left: 20px;
+}
+#save-el {
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+}
+#sum-el {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 45%;
+    text-decoration: underline;
+
+}
+/* blackjack card*/
+.blackjack-card{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width :700px;
+    height: 600px;
+    margin: 50px 0 50px 25%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+#start-el {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding : 0;
+    margin-left: 40%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+#newcard-el{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding : 0;
+    margin-left: 40%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+/*chrom-extension*/
+.extension {
+    background-color: rgb(210, 195, 243);
+    display: flex;
+    flex-direction: column;
+    width :700px;
+    height: 600px;
+    margin: 50px 0 50px 25%;
+}
+input {
+    border: 1px solid #5f9341;
+    padding:10px;
+    margin: 40px 20px 0 20px;
+    box-sizing: border-box;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+#delete-btn {
+    color: #5f9341;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+}
+#input-btn {
+    color:#fff;
+    background-color: #5f9341;
+    padding: 10px 20px 10px 20px;
+    margin-left: 20px;
+    border: none;
+    font-weight: bold;
+}
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 20px;
+}
+li {
+    margin-top: 5px;
+}
+li a{
+     color: #5f9341;
+     font-weight: 500;
+     font-size: larger;
+}
