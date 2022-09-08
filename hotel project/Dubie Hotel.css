@@ -14,7 +14,7 @@ body, html{
     
 }
 nav{
-    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/gallery-5.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.2), rgba(20,0,0,0.7)),url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/about-banner.jpg);
     background-size: cover;
     position: relative;
     height: 600px;
@@ -56,6 +56,7 @@ nav ul li a {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: block;
 }
 nav ul li :hover {
     background-color: #fff;
@@ -94,7 +95,7 @@ nav ul li :hover {
 }
 .booking h5 {
     color: #fff;
-    background-color: black;
+    background-color: rgba(27, 25, 25);
     padding: 10px 15px;
     position: absolute;
     top: 410px;
@@ -112,12 +113,13 @@ nav ul li :hover {
     position: absolute;
     top: 500px;
     padding-left: 30px;
-    
+    color:rgba(27, 25, 25);
 
 }
 .form label {
     font-weight: 700;
     line-height: 3;
+    
 }
 .input {
     display: block;
@@ -130,7 +132,7 @@ nav ul li :hover {
     border: solid 1px gray;
  } 
  input::placeholder {
-    color: black;
+    color: rgba(27, 25, 25);
     font-family: inherit;
     padding-left: 50px;
     font-weight: 700;
@@ -176,7 +178,86 @@ form .rooms{
     margin-top: -35px;
     left: 40px;
     font-size: 20px;
+    color: rgba(27, 25, 25);
 }
+.plan{
+    background:linear-gradient(rgba(255, 255, 255, 0.5), rgba(20,0,0,0.7)), url(https://rukkihotelsample-904d1f.ingress-earth.ewp.live/wp-content/uploads/2021/05/background-img-1.jpg);
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+.plan h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.plan p {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 0;
+}
+.plan h3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.booking h3 span {
+    font-size: 40px;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    color:rgba(27, 25, 25, 0.7) ;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+}
+.explore h2 {
+    color: rgb(27, 25, 25, 0.9);
+}
+.explore ul {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.explore ul li a {
+    text-decoration: none;
+    color:rgba(27, 25, 25, 0.7) ;
+    font-weight: 600;
+}
+.explore p {
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.fa-brands{
+    padding-left: 50px;
+}
+.fa-phone{
+    background-color:  transparent;
+    font-size: 40px;
+    padding-right: 50px;
+}
+.copyright{
+    font-size: 20px;
+    color:rgba(27, 25, 25, 0.7) ;
+    font-weight: 600;
+    text-align: center;
+}
+
 /**phone view*/
 @media screen and (max-width: 858px){
     nav{
@@ -240,5 +321,221 @@ form .rooms{
 
 .reservation{
    display: none;
+}
+.booking h5 {
+    color: #fff;
+    background-color: rgba(27, 25, 25);
+    padding: 10px 15px;
+    position: absolute;
+    top: 410px;
+    left: 90px;
+    width: 180px;
+}
+.description h1{
+    font-size: 30px;
+}
+.tourism {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.tourism h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.tourism p {
+    width: 87%;
+}
+img{
+    width: 100%;
+}
+.tour p{
+    margin: 20px 20px;
+}
+.tour img{
+    padding: 20px 20px 0;
+}
+.amenities h1{
+    font-size: 28px;
+    margin: 40px 0 20px 20px;
+}
+.amenities p {
+    margin-left: 20px;
+    width: 87%;
+}
+.facilities{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px
+
+}
+.facilities h2 {
+    margin-top: 20px;
+}
+.facilities p{
+    margin-bottom: 20px;
+}
+.pictures{
+    margin: 20px 20px;
+}
+.pictures h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.pictures p {
+    margin-bottom: 35px;
+}
+.booking{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.booking h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    width: 60%;
+    margin-left: 65px;
+}
+.booking p {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 80%;
+    line-height: 2;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.booking h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.booking h3 span {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color:rgba(27, 25, 25, 0.7) ;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.explore h2 {
+    margin-top: 30px;
+    
+}
+.explore ul {
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.explore p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.fa-brands{
+    padding-left: 50px;
+    margin: 20px 0 50px 0 ;
+}
+.copyright{
+    font-size: 15px;
+    margin: 20px 0 20px 40px;
+    width: 80%;
+    
+}
+.fa-phone{
+    font-size: 20px;
+    padding-right: 40px;
+}
+.plan{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.plan h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    width: 60%;
+    margin-left: 65px;
+}
+.plan p {
+    margin-left: 0px;
+    font-size: 15px;
+    padding-top: 20px;
+    width: 80%;
+    line-height: 2;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+.plan h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.plan h3 span {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color:rgba(27, 25, 25, 0.7) ;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.explore h2 {
+    margin-top: 30px;
+    
+}
+.explore ul {
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0;
+    margin-top: 30px;
+}
+.explore p{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.fa-brands{
+    padding-left: 50px;
+    margin: 20px 0 50px 0 ;
+}
+.copyright{
+    font-size: 15px;
+    margin: 20px 0 20px 40px;
+    width: 80%;
+    
+}
+.fa-phone{
+    font-size: 20px;
+    padding-right: 10px;
 }
 }
